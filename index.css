@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    background-image:url("BGimg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: white;
+    text-align: center;
+}
+
+a{
+    color: white;
+    font-size: .8em;
+    margin-top: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    width:60%;
+    border-radius: 1em;
+    margin: 2em auto .5em auto;
+    flex-wrap: wrap;
+    background-color: #000000db;
+    padding:1em;
+}
+
+h3{
+    font-size: 5em;
+    font-weight: 600;
+    margin: .7em 0 0 .5em;
+}
+h2{
+    font-size: 5em;
+    
+}
+
+.score{
+    background-color: black;
+    font;
+    color: red;
+    padding:.5em;
+    margin: .3em auto;
+}
+button{
+    font-weight: 100;
+    font-size: 2em;
+    border: 1px ;
+    padding: .5em;
+    margin: .5em;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 2em;
+    background-color: #bc4b2f;
+}
